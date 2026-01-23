@@ -261,8 +261,10 @@ section {
 }
 
 .album-showcase {
-    max-width: 500px;
+    max-width: 320px;  /* Smaller size */
     width: 100%;
+    align-self: flex-start;  /* Align to the left */
+    margin-left: 0;  /* Ensure it starts from the left */
 }
 
 .hero h1 {
@@ -283,15 +285,15 @@ section {
 }
 
 .album-showcase {
-    max-width: 100px;  /* Even smaller */
+    max-width: 320px;  /* Smaller size */
     width: 100%;
-    align-self: flex-start;
-    margin-left: -40px;  /* Push further left */
+    align-self: flex-start;  /* Align to the left */
+    margin-left: 0;  /* Ensure it starts from the left */
 }
 
 .album-cover {
-    width: 50px;  /* Smaller artwork */
-    height: 50px;
+    width: 220px;  /* Smaller artwork */
+    height: 220px;
 }
 
 .album-cover img {
