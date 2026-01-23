@@ -257,7 +257,7 @@ section {
 .hero-visual {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .album-showcase {
