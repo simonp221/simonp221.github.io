@@ -283,15 +283,15 @@ section {
 }
 
 .album-showcase {
-    max-width: 250px;  /* Even smaller */
+    max-width: 100px;  /* Even smaller */
     width: 100%;
     align-self: flex-start;
     margin-left: -40px;  /* Push further left */
 }
 
 .album-cover {
-    width: 180px;  /* Smaller artwork */
-    height: 180px;
+    width: 50px;  /* Smaller artwork */
+    height: 50px;
 }
 
 .album-cover img {
